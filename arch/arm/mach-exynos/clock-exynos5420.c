@@ -2622,7 +2622,7 @@ static struct clk exynos5420_init_clocks_off[] = {
 		.ctrlbit	= (1 << 28),
 	}, {
 		.name		= "g3d",
-#ifdef CONFIG_MALI_MIDGARD
+#ifdef CONFIG_MALI_T6XX
 		.devname	= "mali.0",
 #endif
 		.enable		= exynos5_clk_ip_g3d_ctrl,
