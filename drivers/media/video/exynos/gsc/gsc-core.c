@@ -1391,6 +1391,7 @@ int gsc_sysmmu_fault_handler(struct device *dev, const char *mmuname,
 
 	return 0;
 }
+
 static int gsc_runtime_suspend(struct device *dev)
 {
 	struct platform_device *pdev = to_platform_device(dev);
